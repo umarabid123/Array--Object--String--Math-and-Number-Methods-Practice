@@ -1,6 +1,6 @@
 // At MEthod
 
-let num = [1,3,5,7];
+// let num = [1,3,5,7];
 
 //  console.log(num.at(1));
 
@@ -96,14 +96,168 @@ let num = [1,3,5,7];
 
 // console.log(num.slice(1,3));
 
-console.log(num.sort());
+// sort Elements Alphabetically
+// console.log(num.sort());
 
 // sort array elements in desending order 
 // console.log(num.sort(function(a,b){ return b-a} ));
 
 
 // sort array elements in Assending order 
-console.log(num.sort(function(a,b){ return a-b} ));
+// console.log(num.sort(function(a,b){ return a-b} ));
+
+
+// setInterval(encourage, 500);
+// function encourage() {
+//  console.log("You're doing great, keep going!");
+// }
+
+
+// let promise = new Promise(function (resolve, reject) {
+//     // do something that might take a while
+//     // let's just set x instead for this example 
+//     let x = 20;
+//     if (x < 10) {
+//     resolve(x); // on success
+//     } else {
+//     reject("Too low"); // on error
+//     }
+//    });
+//    promise.then(
+//     function (value) {
+//     console.log("Success:", value);
+//     },
+//     function (error) {
+//     console.log("Error:", error);
+//     }
+//    );
+
+
+// let mypromise = Promise.resolve("Start counting");
+
+// function counter(value){
+// console.log(value);
+
+// }
+
+// mypromise.then((value) => counter("Start counting")).then(() =>{
+//     counter("One")
+// }).then((value) => value).then(() =>{
+//     counter("Two")
+// }).then((value) => value).then(() =>{
+//     counter("Three")
+// });
+
+// 1. Set up a Promise that resolves with a value of "Start Counting".
+// const startCountingPromise = new Promise((resolve, reject) => {
+//     resolve("Start Counting");
+// });
+
+// // 2. Create a function named counter() that has one argument that gets the value and outputs it into the console.
+// function counter(value) {
+//     console.log(value);
+// }
+
+// // 3. Set up the next function in the Promise with four then() instances
+// startCountingPromise
+//     .then((value) => {
+//         counter(value); // Outputs "Start Counting"
+//         return "one"; // Returns "one" for the next then()
+//     })
+//     .then((value) => {
+//         counter(value); // Outputs "one"
+//         return "two"; // Returns "two" for the next then()
+//     })
+//     .then((value) => {
+//         counter(value); // Outputs "two"
+//         return "three"; // Returns "three" for the next then()
+//     })
+//     .then((value) => {
+//         counter(value); // Outputs "three"
+//         return "Four"
+//     }).then((value) => counter(value));
+
+
+
+// function saySomething(x) {
+//     return new Promise(resolve => {
+//     setTimeout(() => {
+//     resolve("something" + " " + x);
+//     }, 2000);
+//     });
+//    }
+//    async function talk(x) {
+//     const words = await saySomething(x);
+//     console.log(words);
+//    }
+//    talk(2);
+//    talk(4);
+//    talk(8);
+   
+
+
+let num = [1,3,5,7];
+// console.log(num.at(3));
+// num.push(8)
+// console.log(num);
+
+
+
+// num.pop();
+// console.log(num);
+
+
+// num.fill(6);
+// console.log(num);
+
+
+// num.shift()
+// console.log(num);
+
+
+// num.unshift(6);
+// console.log(num);
+
+
+// num.reverse();
+// console.log(num);
+// let num2 =num.includes(3);
+// console.log(num2);
+
+// console.log(arr2);
+
+// let arr2 = num.map(item => item*6);
+
+
+// console.log(num.filter(item => item > 2));
+
+// console.log(num.find(item => item < 2));
+
+
+// console.log(num.every(item => item>1));
+
+
+// console.log(num.findIndex(item => item ==3));
+
+
+// let arr =num.toString()
+
+// console.log(typeof arr);
+
+
+// console.log(num.join(","));
+
+// num.splice(2, 0, "i", "r");
+
+// console.log(num);
+
+
+// let arr = num.slice(1, 3);
+// console.log(arr);
+
+
+let arr2 =num.sort(function(a, b){return b -a});
+console.log(arr2);
 
 
 
