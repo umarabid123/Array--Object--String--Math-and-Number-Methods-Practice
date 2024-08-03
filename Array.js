@@ -256,8 +256,158 @@ let num = [1,3,5,7];
 // console.log(arr);
 
 
-let arr2 =num.sort(function(a, b){return b -a});
-console.log(arr2);
+// let arr2 =num.sort(function(a, b){return b -a});
+// console.log(arr2);
+
+// Dates 
+
+let a = new Date;
+
+
+// get today date
+// console.log(a.getDate());
+
+// get day number of week
+// console.log(a.getDay());
+
+// year like 2024
+// console.log(a.getFullYear());
+
+
+// get minutes (0-59)
+
+// console.log(a.getMinutes());
+
+
+// get Months from (0-7)
+// console.log(a.getMonth());
+
+// get seconds from (0-59)
+// console.log(a.getSeconds());
+
+// get Time
+// console.log(a.getTime());
+
+
+
+
+
+// for hours (0-23)
+// console.log(a.getHours());
+
+// For Mili Seconds
+
+// console.log(a.getMilliseconds());
+
+
+
+
+
+
+
+// let person = [1,2,3,4,5,6];
+
+// const [c,,,e] =person;
+
+// console.log(e);
+
+// let person ={name:"umar", age:24, Gender:"Male"};
+
+// let {name:firstName,age:Age} = person;
+// let {name,age,Gender} = person;
+// console.log(firstName);
+// console.log(age);
+
+
+// Object Methods
+
+// let obj ={
+//     firstName:"Umar",
+//     age:21,
+//     Gender:"Male",
+//     Greet:function(){
+//         console.log("Hello EveryOne");
+        
+//     }
+// }
+
+
+// obj.age = 22;
+// // obj[age]++;
+// console.log(obj);
+
+
+// console.log(obj.Greet());
+
+// let prin = obj.Greet();
+// console.log(obj.Greet());
+
+
+
+// Math Method
+let num2 = 3.665;
+
+// Round near after decimal number like if up to 3.5 then its return answer 4 if thats less than 3.5 like 3.4 then this return 
+// 3
+// console.log(Math.round(num2));
+
+
+// For Power like 6 ki power 2 
+// console.log(Math.pow(6,2));
+
+
+// FOr Sequre Root
+// console.log(Math.sqrt(9));
+
+// Always Positive
+// console.log(Math.abs(-3.14));
+
+// floor used for round down 
+// console.log(Math.floor(num2));
+
+
+// Ceil used for round up like 3.14 to 4
+// console.log(Math.ceil(num2));
+
+// Math sin 
+// console.log(Math.sin(90));
+
+// Math Cos
+// console.log(Math.cos(90));
+
+//Math minmum value
+// console.log(Math.min(1,2,4,5,6,7));
+
+// Math Maximum Value
+// console.log(Math.max(1,2,4,5,6,7));
+
+// Math log used for calculate log of num
+// console.log(Math.log(90));
+
+// Used for Exponent
+// console.log(Math.exp(3));
+
+// Genrate Random Number from 0-1
+// console.log(Math.random());
+
+
+// Genreate Random number from 1-5
+// console.log(Math.floor(Math.random()*5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
