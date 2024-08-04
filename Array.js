@@ -469,7 +469,7 @@ promise.then( value => {
     console.log(value);
     return "We";
 }).then(value =>{
-    console.log(value);
+    cnsole.log(value);
     return "can";
     
 }).then(value =>{
